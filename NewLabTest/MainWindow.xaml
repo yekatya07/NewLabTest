@@ -1,0 +1,17 @@
+﻿<Window x:Class="NewLabTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewLabTest"
+        mc:Ignorable="d"
+        Title="InputWindow" Height="450" Width="800">
+    <Grid Background="LightGray">
+        <TextBlock FontSize="44" Margin="56,10,87,366">Введите значения треугольника</TextBlock>
+        <TextBox Name="FirstText" Margin="56,304,502,67"></TextBox>
+        <TextBox Name="SecondText" Margin="56,105,502,265"></TextBox>
+        <TextBox Name="ThirdText" Margin="56,202,502,165"></TextBox>
+        <Button Name="Go" Background="White" FontSize="32" Content="Посчитать" Margin="0,89,84,276" HorizontalAlignment="Right" Width="274" Click="Go_Click"></Button>
+        <TextBox Name="Result" Margin="384,179,26,53"></TextBox>
+    </Grid>
+</Window>
